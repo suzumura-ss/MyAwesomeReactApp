@@ -1,3 +1,20 @@
+# カスタム
+
+## path alias
+
+- `compilerOptions.paths` が効かないので `react-app-rewired` で設定を拡張.
+
+## jest
+
+- `yarn test` でwatchモードになるのを回避.
+
+## eslint
+
+- eslintを単独実行する手段が抜けているので拡張.
+- `.eslintrc.js` にルールを記述するように変更.
+- ルールを幾つか追加.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
